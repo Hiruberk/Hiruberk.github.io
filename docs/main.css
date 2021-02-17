@@ -29,23 +29,41 @@
     color: white;
   }
 
+  h1{
+    font-size: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  li{
+    font-size: 21px;
+    text-indent: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
   /* Add a top margin to avoid content overlay */
   .main {
     padding: 16px;
     margin-top: 30px;
-    height: 1200px 
   }
 
   body{
     background-color: rgb(168, 154, 168);
   }
 
-  .tab { margin-left: 40px; }
-
   p {
-    font-family: serif;
-    background-color: dimgrey;
-    color: whitesmoke;
+    font-size: 21px;
+    text-indent: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p1{
+    font-size: 21px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   footer {
@@ -53,4 +71,5 @@
     padding: 3px;
     background-color: DarkSalmon;
     color: white;
+    bottom: 0;
   }
