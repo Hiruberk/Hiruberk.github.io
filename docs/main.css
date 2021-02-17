@@ -43,6 +43,7 @@
     font-size: 21px;
     text-indent: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30%;
   }
 
   /* Add a top margin to avoid content overlay */
@@ -53,6 +54,11 @@
 
   body{
     background-color: rgb(168, 154, 168);
+  }
+
+  .floatRight{
+    float: right;
+    margin-left: auto;
   }
 
   p {
